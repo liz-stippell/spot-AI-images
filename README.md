@@ -1,6 +1,10 @@
 # spot-AI-images
 Python code for recognizing AI jpg images through pixel patterns
 
+## Required Libraries
+1. `PIL`: Python Imaging library, possibly already built into Python, if not: `pip install pillow` in the command line (Windows) or `brew install pillow` (Mac)
+2. `numpy`: Numerical Python, can install by: `pip install numpy` (Windows) or `brew install numpy` (Mac)
+
 ## Notes on Analyzing the Data
 Usually, AI images have a much lower standard deviation and average than a real image. Real images tend to have larger standard deviations than their AI counterparts, and extremely high averages ranging all the way into the 10,000 range in some cases. This is also extremely dependent on the size of the image. The smaller the image, the harder it is to tell if it's AI.
 
